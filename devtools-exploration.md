@@ -46,7 +46,7 @@
   - submit button  
   
 - **Screenshot of Elements panel:**  
-  ![homepage screen](images/screenshot.png)
+  ![homepage screen](images/facebook-screenshot.png)
 
 ---
 
