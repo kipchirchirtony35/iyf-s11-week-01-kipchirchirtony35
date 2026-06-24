@@ -46,7 +46,8 @@
   - submit button  
   
 - **Screenshot of Elements panel:**  
-  
+  ![Facebook screensho](<img width="1358" height="670" alt="Screenshot 2026-06-24 164001" src="https://github.com/user-attachments/assets/075eecad-3be1-4580-b6a1-f215b07ae307" />
+)
 
 ---
 
