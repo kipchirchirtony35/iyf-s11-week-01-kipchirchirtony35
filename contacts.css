@@ -21,39 +21,32 @@ body {
   color: var(--text);
   line-height: 1.6;
 }
-
-header {
-  background-color: var(--white);
-  border-bottom: 2px solid var(--border);
-  padding: 16px 32px;
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+  background: #0077cc;
+  color: white;
 }
 
-.logo {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: var(--blue);
-}
-
-nav ul {
+.navbar-items {
   list-style: none;
   display: flex;
-  gap: 24px;
+  gap: 1rem;
 }
 
-nav a {
+.navbar-items a {
+  color: white;
   text-decoration: none;
-  color: var(--text);
-  font-size: 0.95rem;
+  font-weight: 600;
 }
 
-nav a:hover {
-  color: var(--blue);
-  text-decoration: underline;
+.navbar-items a:hover {
+  color: #ffcc00;
 }
+
+
 
 main {
   max-width: 580px;
