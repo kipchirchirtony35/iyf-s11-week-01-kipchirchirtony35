@@ -6,61 +6,66 @@
   <title>Contact Me</title>
   <link rel="stylesheet" href="contacts.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Me</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="contacts.html">Contact</a></li>
-            </ul>
-          </nav>
-          <h1>Contact Form</h1>
-    </header>
-  
+  <header>
+    <div class="logo">Tony</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <form action="#" method="post">
-    <fieldset>
-      <legend>Personal Information</legend>
+  <main>
+    <h1>Contact Form</h1>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
 
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="yourname@example.com" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Optional">
+      </fieldset>
 
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone" placeholder="Optional">
-    </fieldset><br><br>
-    
+      <fieldset>
+        <legend>Message Details</legend>
+        <label for="subject">Subject:</label>
+        <select id="subject" name="subject" required>
+          <option value="">Select a subject</option>
+          <option value="general">General Inquiry</option>
+          <option value="support">Support Request</option>
+          <option value="feedback">Feedback</option>
+        </select>
 
-    <fieldset>
-      <legend>Message Details</legend>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write at least 50 characters" minlength="50" required></textarea>
+      </fieldset>
 
-      <label for="subject">Subject:</label>
-      <select id="subject" name="subject" required>
-        <option value="">Select a subject</option>
-        <option value="general">General Inquiry</option>
-        <option value="support">Support Request</option>
-        <option value="feedback">Feedback</option>
-      </select><br><br>
+      <fieldset class="checkbox">
+        <legend>Preferences</legend>
+        <label class="checkbox-input">
+          <input class="newsletter" type="checkbox" name="newsletter">
+          <p>Subscribe to newsletter</p> 
+        </label>
+      </fieldset>
+      
 
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Write at least 50 characters" minlength="50" required></textarea>
-    </fieldset><br>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
 
-    <fieldset>
-      <legend>Preferences</legend>
-      <label>
-        <input type="checkbox" name="newsletter">
-        Subscribe to newsletter
-      </label>
-    </fieldset> <br>
-
-    <button type="submit">Submit</button>
-  </form>
+  <footer>
+    <p>© 2026 Tony</p>
+  </footer>
 </body>
 </html>
+
+
