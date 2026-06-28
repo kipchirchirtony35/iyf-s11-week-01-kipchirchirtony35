@@ -35,30 +35,33 @@
   }
   
   p, li { font-size: 1rem; }
-  
-  header {
+
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
-  }
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  nav li {
-    margin-left: 20px;
-  }
-  nav a {
-    text-decoration: none;
-    color: #222;
-    transition: color 0.3s ease;
-  }
-  nav a:hover {
-    color: #0077cc;
+    padding: 1rem 2rem;
+    background: #0077cc;
+    color: white;
   }
   
-  .hero {
+  .navbar-items {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-items a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .navbar-items a:hover {
+    color: #ffcc00;
+  }
+
+.hero {
     display: flex;
     flex-direction: column;
     gap: 20px;
