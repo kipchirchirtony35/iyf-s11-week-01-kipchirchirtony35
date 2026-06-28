@@ -4,48 +4,32 @@ body {
   line-height: 1.6;
 }
 
-header {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
   background: #0077cc;
-  color: #fff;
+  color: white;
 }
 
-.logo {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.5rem;
-}
-
-nav ul {
-  display: none; /* hidden on mobile */
+.navbar-items {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  gap: 1rem;
 }
 
-nav ul li {
-  margin-left: 1rem;
-}
-
-nav a {
-  color: #fff;
+.navbar-items a {
+  color: white;
   text-decoration: none;
-  transition: color 0.3s ease;
+  font-weight: 600;
 }
 
-nav a:hover,
-nav a:focus {
-  color: #ff9800;
+.navbar-items a:hover {
+  color: #ffcc00;
 }
 
-.hamburger {
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: #fff;
-}
+
 
 .projects {
   display: grid;
